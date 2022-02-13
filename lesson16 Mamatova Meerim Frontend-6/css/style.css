@@ -1,0 +1,150 @@
+/* Базовые стили начало */
+* {
+    box-sizing: border-box;
+}
+
+
+/* Конец базовых настроек страницы */
+
+
+/* Универсальные стили */
+
+.body {
+    margin: 0;
+}
+.red {color: #e53556;}
+.grey {color: #a999a9;}
+.yellow {color: #ffcc5a;}
+.blue {color: #99d1f5;}
+
+.dropdown_menu {
+    display: none;
+    position: relative;
+    background: white;
+    border: 1px solid black;
+    width: 100%;
+    top: 20px;
+    left: 0;
+}
+.hover_menu li:hover .dropdown_menu{
+    display: block;
+    
+}
+.hover_menu li:hover a {
+    background: #7cd0f5;
+    color: white;
+}
+
+.left, .ul_li > li {
+    float: left;
+    /*   , - это означает дополнительное обращение к тому или иному элементому */
+    /* > - означает что обращение будет происходить только для род элементов */
+    /* float - это обтекание, то есть выравнивание в какую сторону  */
+}
+.right {
+    float: right;
+}
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.ul_li li {
+    padding: 10px 15px;
+}
+/* Конец универсальных стилей */
+
+.top_menu i {
+    padding: 10px;
+}
+/* 15 урок */
+.b-r li {
+    border-right: 1px solid #a999a9;
+}
+.b-r li:last-child {
+    border-right: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.icon_msg {
+    position: relative;
+}
+.msg {
+    position: absolute;
+    top: 25px;
+    right: 1012px;
+    background: red;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 13px;
+}
+
+/* домашка 14 урока */
+.list_menu .left i, .list_menu .right i {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 14px;
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Стили для страницы начало */
+/* Урок 14 */
+.top_menu {
+    background: #f7f7f7;
+    display: inline-block;
+    width: 100%;
+}
+.list_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+/* Нижнее меню */
+.bottom_menu {
+    display: inline-block;
+    width: 100%;
+    background: #f7f7f7;
+}
+
+/* Домашка 16 урок */
+.hover_menu a {
+    padding: 10px 25px;
+    margin-left: 4px;
+    color: #7cd0f5;
+    border-radius: 20px;
+}
+.block_search {
+    border-right: 1px solid grey;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Конец стилей для страницы */

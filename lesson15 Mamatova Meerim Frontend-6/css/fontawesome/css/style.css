@@ -1,0 +1,41 @@
+/*Базовые настройки*/
+
+*{
+	box-sizing: border-box;}
+body {margin: 0}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+header, footer {
+    background: azure;
+    display: inline-block;
+    width: 100%;
+}
+ul li {
+	float:left;
+	list-style: none;
+	padding: 0px 10px;
+
+}
+/*Урок4*/
+ul {
+    padding: 0;
+}
+.content{
+	background: #acacef;
+}
+
+ul li {
+    border-right: 1px solid grey;
+}
+
+ul li:last-child {
+    border-right: 0;
+}
+

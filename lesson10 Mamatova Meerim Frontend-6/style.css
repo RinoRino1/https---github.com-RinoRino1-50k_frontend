@@ -1,0 +1,17 @@
+.header {
+    background-color: rgb(21, 155, 155);
+    margin: 30px;
+}
+.center {
+    background-color: burlywood;
+    margin: 30px;
+}
+.footer {
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+.spisok {
+    background-color: cornflowerblue;
+    color: white;
+}

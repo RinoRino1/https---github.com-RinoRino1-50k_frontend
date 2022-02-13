@@ -1,0 +1,95 @@
+.menu {
+    margin: auto;
+	width: 1200px;
+    font-size: 18px;
+    color: #828282;
+    display: flex;
+}
+.top_menu {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+	padding-left: 30px;
+}
+.top_menu li {
+    width: 25%;
+	padding-left: 170px;
+    list-style: none;
+    font-size: 25px;
+    text-decoration-line: underline;
+}
+.menu img {
+    width: 100px;
+}
+.text p {
+    margin: 30px;
+    font-size: 47.3392px;
+    color: #070707;
+    border: 1px solid #828282;
+    text-align: center;
+}
+.content p {
+    margin: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.vertical_text {
+    margin: 30px;
+    padding: 20px;
+}
+.left {
+    display: flex;
+    margin-right: 791px;
+    margin-left: 65px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+.right img {
+    margin-left: 655px;
+    margin-top: -355px;
+    position: absolute;
+}
+.about_me {
+    display: block
+    height: 506px;
+    background: #F6F6F6;
+}
+.about_me p {
+    font-size: 34px;
+    color: #070707;
+}
+.about_me p:nth-child(2) {
+    font-size: 18px;
+    line-height: 22px;
+}
+.skills p {
+    font-size: 34px;
+    color: #070707;
+}
+.skills p:nth-child(2) {
+    font-size: 18px;
+}
+.contacts {
+    display: block;
+    
+}
+.contacts p {
+    
+    font-size: 34px;
+    color: #070707;
+}
+.contacts button {
+    background: #d7d4d4;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+.footer p {
+    display: flex;
+    font-size: 14px;
+    color: #828282;
+    
+}

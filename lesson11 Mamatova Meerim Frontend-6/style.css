@@ -1,0 +1,45 @@
+.header {
+    background-color: rgb(21, 155, 155);
+    margin: 30px;
+    padding: 20px;
+}
+.spisok-top {
+    text-align: left;
+    margin: 40px;
+    
+    
+}
+.logo {
+    text-align: right;
+}
+.logo img {
+    top: 20px;
+    width: 200px;
+    height: 100px;
+}
+.center {
+    background-color: burlywood;
+    margin: 30px;
+    padding: 20px;
+}
+.spisok {
+    background-color: cornflowerblue;
+    color: white;
+}
+.text {
+    padding: 30px;
+    background-color:#bacee7;;
+}
+.photo img{
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+}
+.footer {
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+.logo_footer {
+    text-align: center;
+}
